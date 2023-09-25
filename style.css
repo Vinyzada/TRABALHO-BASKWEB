@@ -1,0 +1,60 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    padding: 50px 20px 50px 20px;
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+form div{
+    margin: 10px;
+}
+
+#perguntas{
+    display: flex;
+    flex-direction: column;
+}
+
+#perguntas input{
+    outline: 0;
+    margin: 10px;
+    appearance: none;
+    border: 0px;
+    background-color: white;
+    padding: 5px;
+}
+
+#perguntas input:hover{
+    box-shadow: 0px 0px 10px 3px rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+}
+
+#botoes input{
+    cursor: pointer;
+    appearance: none;
+    border: 0px;
+    background-color: white;
+    padding: 5px;
+    margin: 5px;
+}
+#botoes input:hover{
+    box-shadow: 0px 0px 10px 3px rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+}
+
+#resultado{
+    background-color: white;
+    width: 400px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
